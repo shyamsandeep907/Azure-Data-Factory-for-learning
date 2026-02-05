@@ -1,0 +1,9 @@
+{
+	"name": "shyam-datafactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8e73996d-d880-4744-8ddb-e28ed8074be8",
+		"tenantId": "22688baf-5655-4318-8b20-a6f8d2978f3d"
+	}
+}
