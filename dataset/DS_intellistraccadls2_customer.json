@@ -1,0 +1,41 @@
+{
+	"name": "DS_intellistraccadls2_customer",
+	"properties": {
+		"description": "Customer File is Provided",
+		"linkedServiceName": {
+			"referenceName": "LS_intellistraccadls2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Customer.txt",
+				"fileSystem": "datalake"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "CustomerCode",
+				"type": "String"
+			},
+			{
+				"name": " CustomerName",
+				"type": "String"
+			},
+			{
+				"name": " Address",
+				"type": "String"
+			},
+			{
+				"name": " PhoneNumber",
+				"type": "String"
+			}
+		]
+	}
+}
