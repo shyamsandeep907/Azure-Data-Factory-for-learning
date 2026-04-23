@@ -1,0 +1,23 @@
+{
+	"name": "DS_intellistraccadls2_target",
+	"properties": {
+		"description": "Stage 1",
+		"linkedServiceName": {
+			"referenceName": "LS_intellistraccadls2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "cleaned"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
